@@ -10,6 +10,7 @@ com.xiaomi.location.fused
 com.xiaomi.mi_connect_service
 com.xiaomi.micloud.sdk
 com.xiaomi.midrop
+com.xiaomi.mipick
 com.xiaomi.mipicks
 com.xiaomi.miplay_client
 com.xiaomi.mircs
