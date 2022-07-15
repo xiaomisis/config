@@ -16,7 +16,8 @@ echo "# 3. Remove packages"
 BASEDIR=$(dirname "$0")
 for FILE in $(ls -1 $BASEDIR/removable_packages/*); do
   for PACKAGE in $(cat $FILE); do
-    adb shell pm uninstall -k --user 0 $PACKAGE &> /dev/null && echo "Removed ${PACKAGE}"
+    echo -n "Removing: ${PACKAGE}"
+    adb shell pm uninstall -k --user 0 $PACKAGE
   done
 done
 
