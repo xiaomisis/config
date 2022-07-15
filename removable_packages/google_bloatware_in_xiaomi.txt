@@ -8,7 +8,7 @@ com.google.android.gm
 com.google.android.gms
 com.google.android.gms.location.history
 com.google.android.googlequicksearchbox
-com.google.android.inputmethod.latin
+#com.google.android.inputmethod.latin
 com.google.android.marvin.talkback
 com.google.android.music
 com.google.android.printservice.recommendation
