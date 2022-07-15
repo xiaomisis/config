@@ -22,3 +22,4 @@ com.xiaomi.scanner
 com.xiaomi.simactivate.service
 com.xiaomi.xmsf
 com.xiaomi.xmsfkeeper
+com.xiaomi.cameratest
