@@ -16,3 +16,4 @@
 #com.google.android.videos
 #com.google.android.youtube
 #com.google.ar.lens
+#com.google.android.calendar
