@@ -6,6 +6,7 @@ org.simalliance.openmobileapi.service
 com.duokan.phone.remotecontroller
 com.duokan.phone.remotecontroller.peel.plugin
 in.amazon.mShop.android.shopping
+com.amazon.mShop.android.shopping
 com.amazon.appmanager
 com.bsp.catchlog
 com.netflix.partner.activation
