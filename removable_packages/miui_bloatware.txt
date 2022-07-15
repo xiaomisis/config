@@ -4,6 +4,7 @@ com.mi.android.globallauncher
 com.mi.android.globalpersonalassistant
 com.mi.globalTrendNews
 com.mi.health
+com.mi.globalbrowser
 com.mi.webkit.core
 com.milink.service
 com.mipay.wallet.id
