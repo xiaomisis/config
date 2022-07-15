@@ -19,6 +19,6 @@ REMOVABLE_PACKAGES=$(cat $BASEDIR/removable_packages.txt)
 for TAG in $REMOVABLE_PACKAGES ; do
   for PACKAGE in $(echo $PACKAGES_LIST | grep ${TAG}); do
     echo -n "Removing ${PACKAGE}: "
-    pm uninstall -k --user 0 $PACKAGE
+    adb shell pm uninstall -k --user 0 $PACKAGE
   done
 done 
