@@ -15,7 +15,9 @@ echo "# 3. Remove packages"
 
 BASEDIR=$(dirname "$0")
 for FILE in $(ls -1 $BASEDIR/removable_packages/*); do
-  echo $FILE
+  for PACKAGE in $(cat $FILE); do
+    echo $PACKAGE
+  done
 done
 
 exit 0
