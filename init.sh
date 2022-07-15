@@ -14,6 +14,14 @@ sudo apt -qqqy install fastboot adb
 echo "# 3. Remove packages"
 
 BASEDIR=$(dirname "$0")
+for FILE in $($BASEDIR/removable_packages/*); do
+  echo $FILE
+done
+
+exit 0
+
+
+
 PACKAGES_LIST=$(adb shell pm list packages | sed "s/^package://")
 REMOVABLE_PACKAGES=$(cat $BASEDIR/removable_packages.txt)
 for TAG in $REMOVABLE_PACKAGES ; do
