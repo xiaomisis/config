@@ -21,3 +21,5 @@
 #com.android.wallpaper.livepicker
 #com.android.wallpaperbackup
 #com.android.wallpapercropper
+#com.android.providers.calendar
+#com.android.camera
