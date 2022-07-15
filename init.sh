@@ -21,15 +21,6 @@ for FILE in $(ls -1 $BASEDIR/removable_packages/*); do
   done
 done
 
-exit 0
-
-
-
-PACKAGES_LIST=$(adb shell pm list packages | sed "s/^package://")
-REMOVABLE_PACKAGES=$(cat $BASEDIR/removable_packages.txt)
-for TAG in $REMOVABLE_PACKAGES ; do
-  for PACKAGE in $(echo $PACKAGES_LIST | grep ${TAG}); do
-    echo -n "Removing ${PACKAGE}: "
-    #adb shell pm uninstall -k --user 0 $PACKAGE
-  done
-done 
+#echo "# 4. Setting permissions"
+#pm list permissions 
+#pm list permissions -g -d | awk -F: '/permission:/ {print $2}'
