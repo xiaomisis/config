@@ -1,11 +1,12 @@
 cn.wps.xiaomi.abroad.lite
 com.autonavi.minimap
 com.caf.fmradio
-com.duokan.phone.remotecontroller
 com.samsung.aasaservice
 org.simalliance.openmobileapi.service
+com.duokan.phone.remotecontroller
 com.duokan.phone.remotecontroller.peel.plugin
 in.amazon.mShop.android.shopping
+com.amazon.appmanager
 com.bsp.catchlog
 com.netflix.partner.activation
 com.netflix.mediaclient
@@ -15,6 +16,7 @@ com.opera.branding.news
 com.opera.mini.native
 com.opera.preinstall
 com.tencent.soter.soterserver
+com.tencent.igxiaomi
 com.facebook.katana
 com.facebook.appmanager
 com.facebook.services
@@ -27,3 +29,12 @@ org.lineageos.recorder
 org.lineageos.snap
 com.hampusolsson.abstruct
 code.name.monkey.retromusic
+com.linkedin.android
+com.ebay.carrier
+com.ebay.mobile
+com.micredit.in
+com.igg.android.lordsmobile
+com.agoda.mobile.consumer
+com.zhiliaoapp.musically
+xiaomi.abroad.lite
+com.booking
